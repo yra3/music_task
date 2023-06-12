@@ -1,0 +1,17 @@
+fastapi==0.95.2
+uvicorn[standart]==0.22.0
+# ORM
+sqlalchemy==2.0.15
+
+# for postgres connection
+psycopg2-binary==2.9.6
+
+# to receive uploaded files
+python-multipart==0.0.6
+
+# password hashing
+bcrypt==4.0.1
+
+# work with music
+pydub==0.25.1
+alembic==1.11.1

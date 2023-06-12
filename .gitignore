@@ -1,0 +1,6 @@
+venv/
+__pycache__
+*.log
+/app/mp3/
+
+/.idea/*

@@ -1,0 +1,14 @@
+# Test your FastAPI endpoints
+
+POST http://localhost:8000/register?username=yura
+Accept: application/json
+
+###
+
+GET http://localhost:8000/record?id=cac64766-c33c-4d6d-884d-f72e751ad0d9&user=1
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/record?user=1&token=b251424a-104b-419e-9d4b-b65553e32dd9
+Accept: application/json

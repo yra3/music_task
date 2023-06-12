@@ -1,0 +1,10 @@
+.gitignore
+Dockerfile
+
+# user uploaded files
+/mp3/
+
+# python
+/__pycache__/
+*.log
+venv/
