@@ -21,7 +21,6 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String)
     token = Column(String)
-    boken = Column(String)
     audios = relationship("Audio", back_populates="user")
 
 
